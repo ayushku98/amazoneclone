@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+      height: 60px;
+      background-color: #0f1111;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content:space-evenly;
+}
+.border{
+border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+margin-left: 15px;
+}
+.add-sec{
+margin-left: 3px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.searchsle{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border: bottom left radius 5px; ;
+}
+.searchinput{
+    width:500px;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+ display: flex;
+    align-items: center;
+ justify-content: center;
+    width:45px;
+    font-size: 1.2rem;
+    background-color: #febd68;
+     border-top-right-radius: 5px ;
+border-bottom-right-radius: 5px;
+}
+.lanpara{
+width: 18px;
+height: 15px;
+color: #ffffff;
+font-weight: 700;
+}
+.lnlogo{
+    width:21px;
+    height: 16px;
+
+}
+.navlanguage{
+    display: flex;
+}
+span{
+    font-size: 0.7rem
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.navcarlogo i{
+font-size: 30px;
+}
+.navcart{
+    font-size: 0.85rem;
+    display: flex;
+    align-items: end;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+
+}
+.panel-lis{
+display: flex;
+list-style:none; 
+gap: 20px;
+align-items:center;
+padding: 6px;
+
+}
+.ank{
+    text-decoration: none;
+    color:white;
+    font-size: 0.85rem;
+}
+.heroimg{
+background-image: url(hero.jpg);
+background-size: cover;
+height: 400px;
+display: flex;
+align-items: flex-end;
+
+
+}
+.heromss{
+    background-color: #f3f3f3;
+ height: 40px;
+ width: 1500px;
+ margin-left: 10px;
+ margin-right: 10px;
+ display: flex;
+ justify-content: center;
+ align-items:center ;
+ font-size: 0.85rem;
+ margin-bottom: 100px;
+
+}
+.hmss{
+    text-decoration: none;
+    color: #007185;
+}
+.box{
+ height: 420px;
+    border: 2px solid black;
+    width: 330px;
+    background-color: white;
+    
+}
+.shop-sec{
+ 
+     background-color: rgba(212, 190, 49, 0.562); 
+    display: flex;
+justify-content: space-around;
+}
+.box h2{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 21px;
+    /* padding-top: 5px;
+    padding-left: 5px; */
+    /* margin-right: 5px; */
+}
+.quadimg{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    
+
+}
+.quadch{
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+.mic a{
+    margin-left: 45px;
+    text-decoration: none;
+ color: black;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.see{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #2162a1;
+    
+}
+.see a{
+    text-decoration: none;
+}
+.gamepic{
+    margin-top: 10px;
+    margin-left:  25px;
+}
+.shop{
+    text-decoration: none;
+    font-size: 13px;
+    color: #2162a1;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+.shop a{
+    text-decoration: none;
+}
+.shop1{
+    text-decoration: none;
+    font-size: 13px;
+    color: #2162a1;
+    margin-top: 32px;
+    margin-left: 10px;
+}
